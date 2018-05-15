@@ -2,23 +2,100 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="./static/css/materialize.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="./static/css/personalizacao.css"  media="screen,projection"/>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Paris</title>
     </head>
-<body>
-    <div class="left-panel card-panel cyan lighten-2">
-        <div class="card">
-            <div class="row">
-                <div class="card-content">
-                <div class="card-title">Titulo</div>
-                    <div class="col s12 m12 ">
-                        Contéudo
+    <body>
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper container">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="sass.html">Home</a></li>
+                        <li><a href="badges.html">Sobre Paris</a></li>
+                        <li><a href="badges.html">Pontos Turísticos</a></li>
+                        <li><a href="badges.html">Eventos e Festivais</a></li>
+                        <li><a href="badges.html">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="sass.html">Home</a></li>
+            <li><a href="badges.html">Sobre Paris</a></li>
+            <li><a href="badges.html">Pontos Turísticos</a></li>
+            <li><a href="badges.html">Eventos e Festivais</a></li>
+            <li><a href="badges.html">Fale Conosco</a></li>
+        </ul>
+        <div class="carousel carousel-slider center">
+            <div class="carousel-item red white-text" href="#one!">
+                <h2>First Panel</h2>
+                <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+                <h2>Second Panel</h2>
+                <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+                <h2>Third Panel</h2>
+                <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+                <h2>Fourth Panel</h2>
+                <p class="white-text">This is your fourth panel</p>
+            </div>
+        </div>
+        <div class="parallax-container">
+          <div class="parallax"><img src="./static/images/paris.jpg"></div>
+        </div>
+        <div class="container">
+            <div class="left-panel card-panel cyan lighten-2">
+                <div class="card">
+                    <div class="row">
+                        <div class="card-content">
+                        <div class="card-title">Titulo</div>
+                            <div class="col s12 m12 ">
+                                Contéudo
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script type="text/javascript" src="js/materialize.js"></script>
-</body>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                © 2014 Copyright Text
+                    <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                </div>
+            </div>
+        </footer>
+        <script src="./static/js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="./static/js/materialize.js"></script>
+        <script type="text/javascript" src="./static/js/personalizacao.js"></script>
+    </body>
 </html>
