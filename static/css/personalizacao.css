@@ -2,10 +2,10 @@
 	font-family: 'Philosopher', sans-serif;
 }
 
-.parallax-container {
-      height: "your height here";
+/*.parallax-container {
+    height: 100%;
 }
-
+*/
 body {
 	display: flex;
 	min-height: 100vh;
@@ -16,3 +16,15 @@ main {
 	flex: 1 0 auto;
 }
 
+#logo {
+	width: 65px;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.17);
+
+}
+
+.parallax-container {
+    margin-top: -65px;
+}
