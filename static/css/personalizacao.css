@@ -2,10 +2,6 @@
 	font-family: 'Philosopher', sans-serif;
 }
 
-/*.parallax-container {
-    height: 100%;
-}
-*/
 body {
 	display: flex;
 	min-height: 100vh;
@@ -30,5 +26,25 @@ video#banner {
 }
 
 div#frase-impacto {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 3em;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
 
+div#frase-impacto span {
+	font-family: 'Kaushan Script', cursive;
+    color: #ee6e73;
+    margin-left: 18rem;
+    font-size: 1.5em;
+}
+
+div#evento {
+	background-color: #4DE5FF;
+	color: white;
+}
+
+#image-evento-versalles{
+	width: 25rem;
+    border: 20px solid white;
 }
