@@ -1,40 +1,130 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../static/css/materialize.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="../static/css/personalizacao.css"  media="screen,projection"/>
-        <link rel="icon" href="../static/images/logo.jpg" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Paris</title>
-    </head>
-    <body>
-        <div class="navbar-fixed">
-            <nav>
-                <div class="nav-wrapper container">
-                    <a href="#!" class="brand-logo">
-                        <img id="logo" src="../static/images/logo.png">    
-                    </a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger">
-                        <i class="material-icons">menu</i>
-                    </a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="badges.html">Sobre Paris</a></li>
-                        <li><a href="badges.html">Pontos Turísticos</a></li>
-                        <li><a href="badges.html">Eventos e Festivais</a></li>
-                        <li><a href="faleConosco.html">Fale Conosco</a></li>
+
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="../static/css/materialize.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="../static/css/personalizacao.css" media="screen,projection" />
+    <link rel="icon" href="../static/images/logo.jpg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher" rel="stylesheet">
+    <title>Paris</title>
+</head>
+
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="#!" class="brand-logo">
+                    <img id="logo" src="../static/images/logo.png">
+                </a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">Sobre Paris</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">Pontos Turísticos</a>
+                    </li>
+                    <li>
+                        <a href="badges.html">Eventos e Festivais</a>
+                    </li>
+                    <li>
+                        <a href="faleConosco.html">Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="card-panel #d81b60 pink darken-1">
+        <div class="row">
+            <div class="input-field col s4">
+                <div style="font-family: Kaushan Script; color: whitesmoke; font-size: 310%">
+                    Deixe a sua mesagem
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <form>
+            <div class="row">
+                    <img class="materialboxed" width="650" src="../static/images/mensagem.jpg">
+            </div>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="nome" type="text">
+                    <label for="name">Nome</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+            <div>
+                <p>
+                    <i class="small material-icons">star</i>
+                    Avalie o nosso site
+                </p>
+                <p class="range-field">
+                    <input type="range" id="avalie" min="0" max="10" />
+                </p>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                    <label for="icon_prefix2">Deixe a sua mensagem</label>
+                </div>
+            </div>
+            <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 1</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 2</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 3</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#!">Link 4</a>
+                        </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
         </div>
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Sobre Paris</a></li>
-            <li><a href="badges.html">Pontos Turísticos</a></li>
-            <li><a href="badges.html">Eventos e Festivais</a></li>
-            <li><a href="badges.html">Fale Conosco</a></li>
-        </ul>
-    </body>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
+    <script src="../static/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../static/js/materialize.js"></script>
+    <script type="text/javascript" src="../static/js/faleConosco.js"></script>
+</body>
+
 </html>
