@@ -11,6 +11,12 @@
     </head>
     <body>
         <div class="navbar-fixed">
+            <ul id="dropdown1" class="dropdown-content">
+                <li><a href="#!">one</a></li>
+                <li><a href="#!">two</a></li>
+                <li class="divider"></li>
+                <li><a href="#!">three</a></li>
+            </ul>
             <nav>
                 <div class="nav-wrapper container">
                     <a href="#!" class="brand-logo">
@@ -21,7 +27,7 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="badges.html">Sobre Paris</a></li>
+                        <li><a class="dropdown-trigger" data-target="dropdown1" href="badges.html">Sobre Paris</a></li>
                         <li><a href="badges.html">Pontos Turísticos</a></li>
                         <li><a href="badges.html">Eventos e Festivais</a></li>
                         <li><a href="faleConosco.html">Fale Conosco</a></li>
@@ -41,9 +47,20 @@
         </video>
         <div class="container">
             <div class="row">
-                <div class="col l6 offset-l3 m6 offset-m3 s12">
-                    <div id="frase-impacto">
-                        Conheça a cidade do <br><span>Amor!</span>
+                <div class="col l8 offset-l2 m10 offset-m1 s12">
+                    <div>
+                        <h1 id="frase-impacto" class="center">Conheça a cidade do <br><span>Amor!</span></h1>
+                        <p>
+                            Você não deve perder a oportunidade de conhecer Paris pelo menos uma vez em sua vida.
+                            Esta cidade pode oferecer a você uma enorme variedade de experiências, uma vez que pode 
+                            ser reconhecida como uma cidade de contraste, indo desde o clima romantico até restaurantes
+                            estrelados.
+                            Esta cidade instiga diversos sonhos com suas belas paisagens, vinho e, até mesmo, o 
+                            sotaque frances.
+                        </p>
+                        <p class="center">
+                            Por onde você for há uma Paris para todos os gostos.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -52,15 +69,16 @@
             <div class="card-content">
                 <div class="row">
                     <div class="col l4 offset-l2 m4 offset-m2 s12">
-                        <span class="card-title">Les Grandes Eaux Nocturnes</span>
+                        <h2 class="card-title center">Les Grandes Eaux Nocturnes</h2>
                         <p>
-                            Durante o verão, nos sábado à noite, podem ser realizados 2h30 de passeio pelos majestosos jardins do Palácio de Versalhes acompanhado pela música barroca. O jardim e as fontes estarão iluminados de maneira diferenciada e o passeio será coroado por um grande espetáculo de fogos de artíficio.
-
-                            O tempo irá parar por uma noite.
+                            Durante o verão, nos sábado à noite, podem ser realizados 2h30 de passeio pelos majestosos 
+                            jardins do Palácio de Versalhes acompanhado pela música barroca. O jardim e as fontes 
+                            estarão iluminados de maneira diferenciada e o passeio será coroado por um grande espetáculo 
+                            de fogos de artíficio.
                         </p>
+                        <p class="center">O tempo irá parar por uma noite.</p>
                     </div>
-                    <div class="col l4 m4 s12">
-                        <img id="image-evento-versalles" src="../static/images/versalles-festival.jpg">
+                    <div id="image-evento-versalles" class="col l4 m4 s12">
                     </div>
                 </div>
             </div>
@@ -93,5 +111,7 @@
         <script src="../static/js/jquery-3.3.1.min.js"></script>
         <script type="text/javascript" src="../static/js/materialize.js"></script>
         <script type="text/javascript" src="../static/js/personalizacao.js"></script>
+        <script src="../static/js/hammer.min.js"></script>
+        <script src="../static/js/muuri.min.js"></script>
     </body>
 </html>
