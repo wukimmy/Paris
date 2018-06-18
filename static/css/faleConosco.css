@@ -1,0 +1,12 @@
+#banner{
+    font-family: Kaushan Script;
+    color: whitesmoke;
+    font-size: 510px;
+    height: 400px;
+    background-image: url('../images/torre.jpg');
+}
+#title{
+    font-size: 210%;
+    shape-outside: 10%;
+
+}
