@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5 {
 
 nav {
 	background-color: rgba(0, 0, 0, 0.17);
-
 }
 
 video#banner {
@@ -52,6 +51,5 @@ div#evento {
 
 #image-evento-versalles{
 	border: 20px solid white;
-	background-image: url("../images/versalles-festival.jpg");
-	background-repeat: no-repeat;
 }
+

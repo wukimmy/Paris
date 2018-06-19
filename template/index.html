@@ -4,22 +4,24 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="../static/css/materialize.css"  media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="../static/css/personalizacao.css"  media="screen,projection"/>
-        <link rel="icon" href="../static/images/logo.jpg" type="image/x-icon">
+        <link rel="icon" href="../static/images/logo.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Philosopher" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Paris</title>
     </head>
     <body>
         <div class="navbar-fixed">
-            <ul id="dropdown1" class="dropdown-content">
-                <li><a href="#!">one</a></li>
-                <li><a href="#!">two</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">three</a></li>
+            <ul id="sobre-paris" class="dropdown-content">
+                <li><a href="sobreParis.html">Sobre Paris</a></li>
+                <li><a href="#!">Histórico</a></li>
+                <li><a href="#!">Hospedagem</a></li>
+                <li><a href="#!">Gastronomia</a></li>
+                <li><a href="quandoVisitar.html">Quando Visitar</a></li>
+                <li><a href="transporte.html">Transporte</a></li>
             </ul>
             <nav>
                 <div class="nav-wrapper container">
-                    <a href="#!" class="brand-logo">
+                    <a href="index.html" class="brand-logo">
                         <img id="logo" src="../static/images/logo.png">    
                     </a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -27,10 +29,9 @@
                     </a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="index.html">Home</a></li>
-                        <li><a class="dropdown-trigger" data-target="dropdown1" href="badges.html">Sobre Paris</a></li>
-                        <li><a href="badges.html">Pontos Turísticos</a></li>
-                        <li><a href="badges.html">Eventos e Festivais</a></li>
-                        <li><a href="quandoVisitar.html">Quando Visitar</a></li>
+                         <li><a class="dropdown-trigger" href="#!" data-target="sobre-paris">Sobre Paris<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="pontosTuristicos.html">Pontos Turísticos</a></li>
+                        <li><a href="eventos.html">Eventos e Festivais</a></li>
                         <li><a href="faleConosco.html">Fale Conosco</a></li>
                     </ul>
                 </div>
@@ -38,10 +39,9 @@
         </div>
         <ul class="sidenav" id="mobile-demo">
             <li><a href="index.html">Home</a></li>
-            <li><a href="badges.html">Sobre Paris</a></li>
-            <li><a href="badges.html">Pontos Turísticos</a></li>
-            <li><a href="badges.html">Eventos e Festivais</a></li>
-            <li><a href="quandoVisitar.html">Quando Visitar</a></li>
+            <li><a href="sobreParis.html">Sobre Paris</a></li>
+            <li><a href="pontosTuristicos.html">Pontos Turísticos</a></li>
+            <li><a href="eventos.html">Eventos e Festivais</a></li>
             <li><a href="faleConosco.html">Fale Conosco</a></li>
         </ul>
         <video id="banner" class="responsive-video" autoplay muted loop width="100%" height="100%">
@@ -80,7 +80,8 @@
                         </p>
                         <p class="center">O tempo irá parar por uma noite.</p>
                     </div>
-                    <div id="image-evento-versalles" class="col l4 m4 s12">
+                    <div class="col l4 m4 s12 center">
+                        <img id="image-evento-versalles"  width="100%" src="../static/images/versalles-festival.jpg" alt="Les Grandes Eaux Nocturnes">
                     </div>
                 </div>
             </div>

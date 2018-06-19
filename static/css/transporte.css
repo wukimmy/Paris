@@ -1,0 +1,88 @@
+* {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.25rem;
+	text-align: justify;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+p {
+	text-indent: 1em;
+}
+
+h1, h2, h3, h4, h5 { 
+	font-family: 'Kaushan Script', cursive;
+}
+
+#logo {
+	width: 65px;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.17);
+
+}
+
+.parallax-container#banner {
+    margin-top: -13%;
+    height: 750px;
+    
+}
+
+.parallax-container#banner h1 {
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+
+img#transito {
+    transform: translate3d(-50%, 285px, 0px) !important;
+    opacity: 0.8 !important;
+}
+
+.card .card-title {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2rem;
+}
+
+@media (max-width: 425px){
+    .parallax-container {
+        height: 500px;
+    }
+}
+
+.card-content i {
+    background-color: #4DE5FF;
+    color: #FFF;
+    font-size: 85px;
+    height: 130px;
+    width: 130px;
+    border-radius: 100%;
+    padding-top: 25px;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.info-transporte {
+    margin-bottom: 1rem !important;
+}
+
+p span {
+    color: #ee6e73;
+    font-weight: 600;
+}
+
+#tarifas { 
+    background-color: #ee6e73;
+}
