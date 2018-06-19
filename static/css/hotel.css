@@ -8,8 +8,8 @@
     
 }
 #title{
-    margin-left: 30%;
-    margin-right: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 10%;
     background-color:rgb(219, 56, 91);
 }
@@ -17,7 +17,10 @@
 #procura{
     background-color:rgb(156, 4, 37);
 }
-
+input ::after{
+    content: "skjrbgkjds";
+    background-color:rgb(156, 4, 37);
+}
 #busca{
     margin-left: 5%;
     margin-right: 5%;

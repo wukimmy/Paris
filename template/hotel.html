@@ -53,32 +53,84 @@
             <div class="center" id="title">
                 Acomodações
                 <div id="busca">
-                    <input id="nome" type="text">
-                    <label for="name">Nome</label>
+                    <div>
+                        <input id="nome" type="text">
+                        <label for="name">Procure pelo nome do hotel</label>
+                        <button type="submit" style="float: right;">Buscar</button>
+                    </div>
                 </div>
                 <br>
             </div>
         </div>
     </div>
-    <div>
-        <div class="row" id="procura">
-            
+    <div id="procura">
+        <div class="row">
+            <div class="col s3"></div>
+            <div class="col s6">
+                <div>
+                    <label>
+                        <input name="estrela" type="radio" />
+                        <span>1 estrela</span>
+                    </label>
+                    <label>
+                        <input name="estrela" type="radio" />
+                        <span>2 estrela</span>
+                    </label>
+                    <label>
+                        <input name="estrela" type="radio" />
+                        <span>3 estrela</span>
+                    </label>
+                    <label>
+                        <input name="estrela" type="radio" />
+                        <span>4 estrela</span>
+                    </label>
+                    <label>
+                        <input name="estrela" type="radio" />
+                        <span>5 estrela</span>
+                    </label>
+
+                </div>
+            </div>
+            <div class="col s3"></div>
+        </div>
+        <div class="row">
+            <div class="col s3"></div>
+            <div class="col s6">
+                <div>
+                    <label>
+                        <input name="hotel" type="checkbox" />
+                        <span>Hotel</span>
+                    </label>
+                    <label>
+                        <input name="hostel" type="checkbox" />
+                        <span>Hostel</span>
+                    </label>
+                    <label>
+                        <input name="pousada" type="checkbox" />
+                        <span>Pousada</span>
+                    </label>
+                </div>
+            </div>
+            <div class="col s3"></div>
         </div>
     </div>
     <div class="content" id="hotel1">
         <div class="row ">
             <div class=" col s6">
-                Qual é a melhor época para vir para Paris? Esta é uma das perguntas que o viajante se faz antes de comprar sua passagem e
-                decidir suas férias. É claro que a resposta depende de fatores e gostos pessoais: quando é possível pedir
-                férias, quando terá companhia, qual tipo de clima prefere etc.
-                <br> Não existe época imprópria para visitar Paris. Mas tampouco — pelo menos do ponto de vista meteorológico
-                — existe uma época perfeita. Os céus de Paris costumam estar mais cinzentos do que ensolarados, e é difícil
-                escapar de alguma chuva, não importa quando você vá. Em termos de volume, até que chove pouco -- entre 50
-                a 60mm todo mês. Toró é difícil acontecer; em compensação, os chuvisqueiros são persistentes
+                <p class="title"> Nome do hotel aqui</p>
+                <p>
+                    descrição do hotel: O verão chega amanhã. Quem decidiu escolher Paris para curtir a estação mais quente do ano, pode se preparar
+                    para o melhor da cultura, em eventos gratuitos por toda a cidade. Do fim deste mês a setembro, uma maratona
+                    cultural com shows de música, cinema ao ar livre, dança e teatro
+                </p>
+
                 <br>
                 <a href="http://aviagemcerta.com.br/2015/01/qual-a-melhor-epoca-para-visitar-paris/">Fonte: A viagem certa</a>
-                <br>
-                <a href="https://www.viajenaviagem.com/destino/paris/quando-ir-paris/"> Viaje Na Viagem</a>
+                <form>
+                    <label>Nome: : Hotelzinho</label>
+                    <label id="classificacao5"> Classificação : 5</label>
+                    <label id="tipoPousada"> Tipo: pousada</label>
+                </form>
             </div>
             <div class=" col s6">
                 <a>
