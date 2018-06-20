@@ -39,9 +39,33 @@ function getEstrelas() {
         }
     }
 }
-function tipo() {
-    var radios = document.getElementsByClassName('tipoHotel');
+function getDinheiro() {
+    var radios = document.getElementsByName('dinheiro');
     var valor = 5;
+
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            valor = radios[i].value;
+            break;
+        }
+    }
+    console.log(valor);
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        var a = li[i].getElementsByClassName("dinheiro")[0];
+        console.log("a",a)
+        if (a.innerHTML.toUpperCase().indexOf(""+valor) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+function getTipo() {
+    var radios = document.getElementsByName('tipo');
+    var valor;
 
     for (var i = 0; i < radios.length; i++) {
         if (radios[i].checked) {
