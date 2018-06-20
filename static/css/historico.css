@@ -1,0 +1,60 @@
+#banner{
+    font-family: Kaushan Script;
+    color: whitesmoke;
+    font-size: 510px;
+    height: 400px;
+    background-image: url('../images/restaurante.jpeg');
+    align-content: center;
+    
+}
+#title{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+    font-size: 210%;
+    background-color:rgb(219, 56, 91);
+    color: whitesmoke;
+}
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 60%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    margin-top: 5%;
+}
+#myUL li :hover:not(.header) {
+    background-color: rgb(190, 28, 68);
+}
+#procura{
+    background-color:rgb(156, 4, 37);
+    color: whitesmoke;
+}
+
+#busca{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color:white;
+}
+
+.content{
+    color: whitesmoke;
+    background-color:rgb(143, 23, 53);
+    margin: 5%;
+    font-family: arial;
+}
+
+
+#polaroid{
+    margin-left: 10%;
+    width: 80%;
+}
+div.polaroid {
+    
+    box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
