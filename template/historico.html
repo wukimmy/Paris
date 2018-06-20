@@ -21,9 +21,29 @@
 
 <body>
     <div class="navbar-fixed">
+        <ul id="sobre-paris" class="dropdown-content">
+            <li>
+                <a href="sobreParis.html">Sobre Paris</a>
+            </li>
+            <li>
+                <a href="historico.html">Histórico</a>
+            </li>
+            <li>
+                <a href="hotel.html">Hospedagem</a>
+            </li>
+            <li>
+                <a href="restaurante.html">Gastronomia</a>
+            </li>
+            <li>
+                <a href="quandoVisitar.html">Quando Visitar</a>
+            </li>
+            <li>
+                <a href="transporte.html">Transporte</a>
+            </li>
+        </ul>
         <nav>
             <div class="nav-wrapper container">
-                <a href="#!" class="brand-logo">
+                <a href="index.html" class="brand-logo">
                     <img id="logo" src="../static/images/logo.png">
                 </a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger">
@@ -34,16 +54,15 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="badges.html">Sobre Paris</a>
+                        <a class="dropdown-trigger" href="#!" data-target="sobre-paris">Sobre Paris
+                            <i class="material-icons right">arrow_drop_down</i>
+                        </a>
                     </li>
                     <li>
-                        <a href="badges.html">Pontos Turísticos</a>
+                        <a href="pontosTuristicos.html">Pontos Turísticos</a>
                     </li>
                     <li>
-                        <a href="badges.html">Eventos e Festivais</a>
-                    </li>
-                    <li>
-                        <a href="quandoVisitar.html">Quando Visitar</a>
+                        <a href="eventos.html">Eventos e Festivais</a>
                     </li>
                     <li>
                         <a href="faleConosco.html">Fale Conosco</a>
@@ -52,6 +71,23 @@
             </div>
         </nav>
     </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="sobreParis.html">Sobre Paris</a>
+        </li>
+        <li>
+            <a href="pontosTuristicos.html">Pontos Turísticos</a>
+        </li>
+        <li>
+            <a href="eventos.html">Eventos e Festivais</a>
+        </li>
+        <li>
+            <a href="faleConosco.html">Fale Conosco</a>
+        </li>
+    </ul>
 
     <div id="banner">
         <div class="row">
