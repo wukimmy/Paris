@@ -27,7 +27,7 @@
     margin-top: 5%;
 }
 #myUL li :hover:not(.header) {
-    background-color: rgb(2, 70, 97);
+    background-color: rgb(190, 28, 68);
 }
 #procura{
     background-color:rgb(156, 4, 37);

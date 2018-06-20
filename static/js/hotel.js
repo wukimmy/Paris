@@ -14,3 +14,52 @@ function myFunction() {
         }
     }
 }
+
+function getEstrelas() {
+    var radios = document.getElementsByName('estrela');
+    var valor = 5;
+
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            valor = radios[i].value;
+            break;
+        }
+    }
+    console.log(valor);
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        var a = li[i].getElementsByClassName("classificacao")[0];
+        console.log("a",a)
+        if (a.innerHTML.toUpperCase().indexOf(""+valor) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+function tipo() {
+    var radios = document.getElementsByClassName('tipoHotel');
+    var valor = 5;
+
+    for (var i = 0; i < radios.length; i++) {
+        if (radios[i].checked) {
+            valor = radios[i].value;
+            break;
+        }
+    }
+    console.log(valor);
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        var a = li[i].getElementsByClassName("tipo")[0];
+        console.log("a",a)
+        if (a.innerHTML.toUpperCase().indexOf(""+valor) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
