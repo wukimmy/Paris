@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5 {
 }
 
 nav {
-	background-color: rgba(0, 0, 0, 0.17);
+	background-color: rgba(0, 0, 0, 0.3);
 
 }
 
@@ -85,4 +85,24 @@ p span {
 
 #tarifas { 
     background-color: #ee6e73;
+}
+
+.linha-1 {
+    min-height: 465px;
+}
+
+.linha-2 {
+    min-height: 530px;
+}
+
+.linha-3 {
+    min-height: 620px;
+}
+
+.tickets .card {
+    min-height: 415px;
+}
+
+.trajeto-turistico .card {
+    min-height: 470px; 
 }
