@@ -1,0 +1,75 @@
+* {
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.25rem;
+	text-align: justify;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+p {
+	text-indent: 1em;
+}
+
+h1, h2, h3, h4, h5 { 
+	font-family: 'Kaushan Script', cursive;
+}
+
+#logo {
+	width: 65px;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+video#banner {
+    margin-top: -13%;
+}
+
+div#frase-impacto {
+	margin-bottom: 3rem;
+}
+
+h1#frase-impacto span {
+	font-family: 'Kaushan Script', cursive;
+    color: #ee6e73;
+	font-size: 1.5em;
+}
+
+div#evento {
+	background-color: #4DE5FF;
+	color: white;
+}
+
+#image-evento-versalles{
+	border: 20px solid white;
+}
+
+#sobre-site {
+	margin-bottom: 3rem;
+}
+
+#itens-site.row .col {
+	position: relative;
+}
+
+#itens-site.row .col img{
+	border: 10px solid black;
+}
+#itens-site.row .col h4 {
+	position: absolute;
+    height: 100%;
+    width: 100%;
+	margin-top: 25%;
+	display: none;
+};
+
+
